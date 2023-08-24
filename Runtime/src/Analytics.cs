@@ -4,7 +4,7 @@ using Firebase.Analytics;
 using RGN.ImplDependencies.Attributes;
 using RGN.ImplDependencies.Core;
 
-namespace RGN.Analytics
+namespace RGN.Modules.Analytics.Runtime
 {
     [InjectImplDependency(typeof(IAnalytics))]
     public sealed class Analytics : IAnalytics
