@@ -1,2 +1,2 @@
 # RGN Analytics
-Package version: 0.7.0-dev.346
+Package version: 0.7.0-dev.347

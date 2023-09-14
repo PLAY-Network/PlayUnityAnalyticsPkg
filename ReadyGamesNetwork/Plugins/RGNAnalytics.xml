@@ -12,7 +12,7 @@
         <member name="M:RGN.Modules.Analytics.AnalyticsModule.LogEventAsync(System.String,System.String,System.Threading.CancellationToken)">
             <summary>
             Asynchronously logs an analytic event with provided event name into RGN analytics backend
-            Later you can request 
+            This method will retry logging the event up to 7 times
             </summary>
             <param name="eventName">The analytics event name</param>
             <param name="eventParameters">Optional event parameters to store with the event</param>
