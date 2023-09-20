@@ -112,6 +112,23 @@ namespace RGN.Modules.Analytics.Runtime
         }
         public void LogEvent(
             string name,
+            string parameterNameOne,
+            string parameterValueOne,
+
+            string parameterNameTwo,
+            double parameterValueTwo)
+        {
+            if (_disabled)
+            {
+                return;
+            }
+            mLogEventParams.Clear();
+            AddNewParameterToParametersArguments(new AnalyticsParameter(parameterNameOne, parameterValueOne));
+            AddNewParameterToParametersArguments(new AnalyticsParameter(parameterNameTwo, parameterValueTwo));
+            FirebaseAnalytics.LogEvent(name, mLogEventParams.ToArray());
+        }
+        public void LogEvent(
+            string name,
             params AnalyticsParameter[] analyticParameters)
         {
             if (_disabled)
