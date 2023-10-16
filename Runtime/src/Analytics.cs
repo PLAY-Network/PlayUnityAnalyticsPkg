@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Firebase.Analytics;
-using RGN.ImplDependencies.Attributes;
+using RGN.Attributes;
 using RGN.ImplDependencies.Core;
 
 namespace RGN.Modules.Analytics.Runtime
