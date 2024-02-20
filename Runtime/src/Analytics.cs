@@ -26,6 +26,7 @@ namespace RGN.Modules.Analytics.Runtime
         public void DisableUserTracking()
         {
             _disabled = true;
+            RGNCore.I.Dependencies.Logger.LogWarning("Analytics user tracking disabled");
         }
         public void LogEvent(string name)
         {
@@ -170,6 +171,7 @@ namespace RGN.Modules.Analytics.Runtime
                 return;
             }
             FirebaseAnalytics.SetUserId(userId);
+            RGNCore.I.Dependencies.Logger.LogWarning("Analytics User Id set to " + userId);
         }
         public void TutorialBegin()
         {
