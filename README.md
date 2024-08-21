@@ -1,2 +1,2 @@
 # RGN Analytics
-Package version: 0.11.0
+Package version: 0.11.1
