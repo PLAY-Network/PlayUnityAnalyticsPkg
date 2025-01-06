@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>RGNAnalytics</name>
+        <name>Analytics</name>
     </assembly>
     <members>
         <member name="T:RGN.Modules.Analytics.AnalyticsModule">

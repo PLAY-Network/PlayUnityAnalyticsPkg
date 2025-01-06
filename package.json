@@ -1,5 +1,5 @@
 ﻿{
-  "name": "io.getready.rgn.analytics",
+  "name": "io.play.unity.analytics",
   "displayName": "PLAY SDK. Analytics",
   "version": "0.16.0",
   "unity": "2020.3",
@@ -28,6 +28,6 @@
     "/Runtime.meta"
   ],
   "dependencies": {
-    "io.getready.rgn.core": "0.16.0"
+    "io.play.unity.core": "0.16.0"
   }
 }
