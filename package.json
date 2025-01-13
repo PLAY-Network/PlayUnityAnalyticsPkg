@@ -1,5 +1,5 @@
 ﻿{
-  "name": "io.play.unity.analytics",
+  "name": "network.theplay.unity.analytics",
   "displayName": "PLAY SDK. Analytics",
   "version": "0.16.0",
   "unity": "2020.3",
@@ -28,6 +28,6 @@
     "/Runtime.meta"
   ],
   "dependencies": {
-    "io.play.unity.core": "0.16.0"
+    "network.theplay.unity.core": "0.16.0"
   }
 }
